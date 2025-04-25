@@ -20,7 +20,7 @@ import AdminProtectedRoute from "../ProtectedRoutes/AdminProtectedRoute.tsx";
 import Dashboard from "../pages/Admin/Dashboard";
 import { useEffect, useState } from "react";
 import ContactUs from "../pages/ContactUs";
-import Logo from "../../src/assets/images/logo.png";
+import logo from "../../src/assets/images/logo1.png";
 import UpgradePlan from '../pages/UpgradePlan/index.tsx';
 import PaymentPage from '../pages/Admin/Payments/index.tsx';
 
@@ -68,7 +68,7 @@ export const AppLayout = () => {
                         <div className="container mx-auto">
                             <div className="flex justify-between">
                                 <div className="h-10">
-                                    <img className="py-3" src={Logo} height={20} width={130} alt="logo-image" />
+                                    <img className="py-3" src={logo} height={10} width={70} alt="logo-image" />
                                 </div>
                                 <div className="flex w-[500px] pt-2">
                                     {/* Admin Menu */}
